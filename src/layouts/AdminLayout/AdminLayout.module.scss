@@ -1,0 +1,12 @@
+@use '../../scss/' as *;
+.wrapper {
+    .container {
+        margin-top: $header-height;
+        height: 100%;
+        .content {
+            padding: 3rem 4rem;
+            margin-bottom: 4rem;
+            margin-left: $sidebar-width;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    margin-top: 5rem;
+
+    .inner {
+        .title {
+            font-size: 3.2rem;
+            font-weight: 700;
+        }
+        .information-create {
+            font-size: 1.6rem;
+            font-weight: 400;
+            & > * ~ * {
+                margin-right: 1rem;
+            }
+            img {
+                width: 30px;
+                height: 30px;
+                margin-left: 1rem;
+            }
+        }
+        .content {
+            width: 700px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            line-height: 25px;
+            -webkit-line-clamp: 3;
+            height: 75px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            margin-top: 0.5rem;
+            font-size: 2rem;
+            font-weight: 400;
+        }
+    }
+}

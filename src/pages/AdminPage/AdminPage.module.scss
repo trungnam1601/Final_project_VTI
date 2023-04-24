@@ -1,0 +1,38 @@
+@use './../../scss/' as *;
+.wrapper {
+    h2 {
+        font-size: 3.2rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .fillter {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+        .input {
+            input {
+                border-radius: 10px;
+                padding: 10px 10px;
+                margin-right: 35px;
+                border: 1px solid #000;
+                font-size: 1.4rem;
+                text-transform: capitalize;
+            }
+        }
+        .button {
+            .btn {
+                padding: 10px 32px;
+                border-radius: 10px;
+                margin-left: 40px;
+            }
+
+            .find {
+                background-color: $primary-color;
+            }
+
+            .add {
+                background-color: #5abd0a;
+            }
+        }
+    }
+}

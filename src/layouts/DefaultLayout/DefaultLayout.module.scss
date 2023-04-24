@@ -1,0 +1,6 @@
+@use '../../scss/' as *;
+.wrapper {
+    .content {
+        margin-top: $header-height;
+    }
+}

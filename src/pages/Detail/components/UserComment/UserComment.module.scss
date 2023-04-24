@@ -1,0 +1,22 @@
+.wrapper {
+    margin: 20px 0 30px 30px;
+
+    .user {
+        // margin-bottom: 15px;
+        img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        span {
+            font-size: 2rem;
+        }
+    }
+
+    p {
+        margin-left: 40px;
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+}

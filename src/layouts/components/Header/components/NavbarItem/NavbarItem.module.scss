@@ -1,0 +1,33 @@
+@use './../../../../../scss/' as *;
+.item {
+    position: relative;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: $header-height;
+    padding: 10px 0;
+    margin: 0 20px;
+    color: #e5e7fd;
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        transition: width 0.5s ease;
+        height: 2px;
+        background-color: #fff;
+    }
+
+    &.active,
+    &:hover {
+        color: #fff;
+    }
+
+    &.active::after,
+    &:hover::after {
+        width: 100%;
+        color: #fff;
+    }
+}

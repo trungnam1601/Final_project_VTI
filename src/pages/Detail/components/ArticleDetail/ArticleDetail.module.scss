@@ -1,0 +1,72 @@
+.wrapper {
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .image {
+        margin-bottom: 20px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .inner {
+        align-items: center;
+        margin-bottom: 20px;
+
+        .title {
+            text-align: center;
+            display: block;
+            font-size: 3.2rem;
+            font-weight: 700;
+            margin: 20px 0;
+        }
+        .information-create {
+            font-size: 1.6rem;
+            font-weight: 400;
+            margin-bottom: 20px;
+            text-align: center;
+            & > * ~ * {
+                margin-right: 1rem;
+            }
+            img {
+                width: 30px;
+                height: 30px;
+                margin-left: 1rem;
+            }
+
+            .fullname {
+                font-weight: 700;
+            }
+
+            .user_img {
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+        }
+
+        .content {
+            font-size: 2rem;
+            font-weight: 400;
+        }
+    }
+
+    .favourite {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+        .icon {
+            width: 40px;
+            height: 40px;
+        }
+        p {
+            font-size: 2rem;
+        }
+    }
+}

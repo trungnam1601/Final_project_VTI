@@ -1,0 +1,10 @@
+@use './../../scss' as *;
+.wrapper {
+    .inner {
+        h2 {
+            font-size: 3.2rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+    }
+}

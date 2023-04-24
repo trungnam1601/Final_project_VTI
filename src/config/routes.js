@@ -2,8 +2,11 @@ const routes = {
     home: '/',
     login: '/login',
     favourite: '/favourite',
-    blog: '/blog',
-    detail: '/blog/:id',
+    detail: '/article',
+    register: '/register',
+    admin: '/admin',
+    AddArticle: '/admin/them-bai-viet',
+    statistical: '/admin/thong-ke',
 };
 
 export default routes;

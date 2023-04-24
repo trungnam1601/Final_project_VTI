@@ -1,0 +1,13 @@
+.item {
+    color: #c6caf7;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #c6caf7;
+
+    &.active,
+    &:hover {
+        color: #fff;
+        border-bottom-color: #fff;
+    }
+}

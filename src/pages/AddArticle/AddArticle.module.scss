@@ -1,0 +1,51 @@
+@use './../../scss/' as *;
+.wrapper {
+    .inner {
+        margin-top: 2rem;
+        h3 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 3.2rem;
+            font-weight: 700;
+        }
+        .title {
+            padding: 10px 0;
+
+            input {
+                border-radius: 20px;
+                border: 1px solid #333;
+                padding: 10px 15px;
+                width: 100%;
+            }
+        }
+
+        .imageUrl {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            input {
+                margin-left: 2rem;
+                border: 1px solid #333;
+                padding: 10px;
+                border-radius: 20px;
+            }
+        }
+
+        .content {
+            margin-top: 2rem;
+        }
+
+        .btn {
+            margin-top: 2rem;
+            padding: 10px 20px;
+            border-radius: 15px;
+            background-color: #5abd0a;
+            text-transform: capitalize;
+            font-size: 1.4rem;
+        }
+    }
+}

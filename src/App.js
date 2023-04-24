@@ -9,8 +9,9 @@ function App() {
             <div className="App">
                 <Routes>
                     {publicRoutes.map((route, index) => {
-                        const Layout = route.layout || DefaultLayout;
                         const Page = route.component;
+                        let Layout = route.layout || DefaultLayout;
+
                         return (
                             <Route
                                 key={index}
